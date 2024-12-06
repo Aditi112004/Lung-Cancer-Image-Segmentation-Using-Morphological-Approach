@@ -11,7 +11,7 @@ Segmentation is a critical step in medical imaging for diagnosing lung cancer. T
 3. Lung region extraction and noise reduction.
 4. Segmentation and visualization of potential cancerous regions.
 
-# Prerequisites:
+# Prerequisites
 Before running the code, ensure the following:
 
 1. MATLAB: Version R2016b or later is recommended.
@@ -29,9 +29,16 @@ Before running the code, ensure the following:
       Perform morphological operations such as erosion, dilation, opening, and closing.
       Extract the lung regions by thresholding and noise removal.
    
-4. Segmentation:
+5. Segmentation:
      Identify suspicious regions (potential nodules) based on intensity and size.
    
-5. Visualization:
+6. Visualization:
       Display the segmented lung regions and highlight potential cancerous areas.
+
+# Referances
+
+1.  Gonzalez R C and Woods R E 2008 Digital Image Processing.
+2.  Enio (2024). Region Growing - Segmentation (https://www.mathworks.com/matlabcentral/fileexchange/50782-region-growing-segmentation), MATLAB Central File Exchange. Retrieved December 
+    6, 2024.
+
 
